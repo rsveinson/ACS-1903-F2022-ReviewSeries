@@ -19,7 +19,10 @@ public class ReviewTemplate {
     
     // ***** Variables *****
     
+    String prompt;             // used to prompt for input fromt the keyboard
     Scanner scanner = new Scanner(System.in);
+    String strin;               // general string input
+    String st;                  // general purpose strin variable
       
     // ***** get some input from the keyboard *****
       
